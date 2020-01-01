@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="9"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_weight="3.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/tick">
+
+
+            </ImageView>
+
+        </LinearLayout>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:text="@string/present_absent_text">
+
+        </TextView>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5.5"
+            >
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                style="@style/wrongButton"
+                android:text="@string/try_again" />
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                style="@style/loginButton"
+
+                android:id="@+id/doneButtton"
+                android:text="@string/done" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:weightSum="8"
+    tools:context=".teacher_activity_Attendence">
+
+    <LinearLayout
+       android:layout_weight="4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/qricon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="4"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/generateCode"
+            android:layout_width="wrap_content"
+            style="@style/loginButton"
+            android:layout_gravity="center"
+            android:text="@string/generate_qr" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/generatePin"
+            android:layout_width="wrap_content"
+            style="@style/loginButton"
+            android:layout_gravity="center"
+            android:text="Generate Pin" />
+
+        <Button
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/loginButton"
+            android:layout_gravity="center"
+            android:text="@string/verify_attendence" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Attendece Managment</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="generate_qr">Generate QR</string>
+    <string name="verify_attendence">Verify Attendence</string>
+    <string name="submitButton">Submit</string>
+    <string name="usinggpsText">UsingGps</string>
+    <string name="using_qr">Using QR</string>
+    <string name="using_pin">Using PIN</string>
+    <string name="present_absent_text">You are Present</string>
+    <string name="done">Done</string>
+    <string name="try_again">Try Again</string>
+    <string name="subjects">Subjects</string>
+    <string name="profile">Profile</string>
+</resources>
