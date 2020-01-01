@@ -39,8 +39,15 @@
                    xmlns:android="http://schemas.android.com/apk/res/android"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent">
-
-
+                   <Button
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:text="Hello" />
+                   <ImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:src="@drawable/iconUser"
+                       android:scaleType="fitCenter"/>
                </FrameLayout>
            </TableRow>
        </TableLayout>
