@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Attendece Managment</string>
     <string name="Username">Username</string>
     <string name="Password">Password</string>
@@ -12,6 +12,12 @@
     <string name="present_absent_text">You are Present</string>
     <string name="done">Done</string>
     <string name="try_again">Try Again</string>
-    <string name="subjects">Subjects</string>
+    <string name="adress">Adress :</string>
+    <string name="phone_no">Phone No :</string>
+    <string name="registaration_no">Reg No :</string>
+    <string name="semister">Semister :</string>
+    <string name="name">Name :</string>
+    <string name="view_detail">View Detail</string>
     <string name="profile">Profile</string>
+    <string name="subjects">Subject</string>
 </resources>

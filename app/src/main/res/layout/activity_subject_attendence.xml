@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".activity_subjectAttendence">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject Name"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:textColor="#3F51B5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="56dp"
+            android:text="100%"
+            android:gravity="center"
+            ></TextView>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <Button
+
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            style="@style/loginButton"
+            android:id="@+id/detailButton"
+            android:text="@string/view_detail" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_profile"></activity>
+        <activity android:name=".activity_subjectAttendence"></activity>
+        <activity android:name=".activity_studentProfileDetail" />
+        <activity android:name=".activity_profile" />
         <activity android:name=".user_attendence_firstActivity" />
         <activity android:name=".activity_teacher_generateCode" />
         <activity android:name=".StudentAttendence_RecycleView" />

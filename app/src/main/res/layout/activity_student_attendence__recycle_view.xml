@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StudentAttendence_RecycleView"
     android:orientation="vertical">
+
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/recycleView">
+        android:layout_height="wrap_content">
 
     </androidx.recyclerview.widget.RecyclerView>
 
     <LinearLayout
-        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
 
 
         <Button
 
+            style="@style/loginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/loginButton"
             android:layout_gravity="bottom"
             android:text="Login" />
     </LinearLayout>
 
 
-
-</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".activity_studentProfileDetail">
+
+        <LinearLayout
+
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/userProfile"
+                android:src="@drawable/iconuser">
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+        </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="22dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/name"></TextView>
+            <TextView
+                android:textSize="22dp"
+                android:id="@+id/studentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abc Name"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="22dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/semister"></TextView>
+            <TextView
+                android:textSize="22dp"
+                android:id="@+id/semister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abc Name"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="22dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/registaration_no"></TextView>
+            <TextView
+                android:textSize="22dp"
+                android:id="@+id/registrationNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abc Name"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="22dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_no"></TextView>
+            <TextView
+                android:textSize="22dp"
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abc Name"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="22dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/adress"></TextView>
+            <TextView
+                android:textSize="22dp"
+                android:id="@+id/adress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abc Name"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
