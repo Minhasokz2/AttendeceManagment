@@ -20,4 +20,5 @@
     <string name="view_detail">View Detail</string>
     <string name="profile">Profile</string>
     <string name="subjects">Subject</string>
+    <string name="enter_pin">Enter Pin</string>
 </resources>
