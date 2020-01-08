@@ -21,7 +21,7 @@ public class activity_profile extends AppCompatActivity {
     }
 
     public void subjectDetail(View view) {
-        Intent intent = new Intent(this,activity_studentProfileDetail.class);
+        Intent intent = new Intent(this,StudentSubjectList.class);
         startActivity(intent);
     }
 }
