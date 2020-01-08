@@ -35,6 +35,7 @@
            android:layout_height="wrap_content">
 
            <ImageView
+               android:onClick="profileDetail"
                android:background="@drawable/squarebutton"
                android:layout_gravity="center"
                android:layout_width="80dp"
@@ -58,6 +59,7 @@
            android:layout_height="wrap_content">
 
            <ImageView
+               android:onClick="subjectDetail"
                android:background="@drawable/squarebutton"
                android:layout_gravity="center"
                android:layout_width="80dp"

@@ -23,13 +23,20 @@
     </androidx.recyclerview.widget.RecyclerView>
 
     <LinearLayout
+
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="10dp"
-        android:gravity="center">
+        android:layout_height="wrap_content">
+        <Button
 
 
+            android:onClick="userProfileIntent"
+            android:layout_width="wrap_content"
+            style="@style/loginButton"
+
+            android:id="@+id/doneButtton"
+            android:text="@string/done" />
     </LinearLayout>
-
 
 </RelativeLayout>
