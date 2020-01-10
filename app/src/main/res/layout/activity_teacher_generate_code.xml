@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="10"
-    tools:context=".activity_teacher_generateCode">
+    tools:context=".activities.activity_teacher_generateCode">
 
     <TextView
         android:layout_marginTop="20dp"

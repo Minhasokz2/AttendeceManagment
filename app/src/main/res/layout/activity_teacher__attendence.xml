@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
    android:weightSum="8"
-    tools:context=".teacher_activity_Attendence">
+    tools:context=".activities.teacher_activity_Attendence">
 
     <LinearLayout
        android:layout_weight="4"
