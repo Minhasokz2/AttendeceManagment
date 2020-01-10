@@ -22,4 +22,5 @@
     <string name="subjects">Subject</string>
     <string name="enter_pin">Enter Pin</string>
     <string name="sample_subjects">Temporary Subjects</string>
+    <string name="all_subjects_detail">All Subjects Detail</string>
 </resources>

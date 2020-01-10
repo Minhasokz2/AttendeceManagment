@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.project.attendecemanagment">
 
-
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
@@ -13,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".student.student_attendence_enterPin"></activity>
+        <activity android:name=".activities.monthly_attendece"></activity>
+        <activity android:name=".activities.subjectDetail" />
+        <activity android:name=".student.student_attendence_enterPin" />
         <activity android:name=".activities.attendence_verification" />
         <activity android:name=".student.student_scanQr" />
         <activity android:name=".activities.activity_subjectAttendence" />

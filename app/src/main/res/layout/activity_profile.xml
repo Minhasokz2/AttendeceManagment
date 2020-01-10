@@ -59,7 +59,7 @@
            android:layout_height="wrap_content">
 
            <ImageView
-               android:onClick="subjectDetail"
+               android:onClick="SubjectDetail"
                android:background="@drawable/squarebutton"
                android:layout_gravity="center"
                android:layout_width="80dp"

@@ -1,16 +1,12 @@
 package com.project.attendecemanagment;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.project.attendecemanagment.activities.teacher_activity_Attendence;
+import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.ArrayList;
+import com.project.attendecemanagment.activities.teacher_activity_Attendence;
 
 public class MainActivity extends AppCompatActivity {
 
