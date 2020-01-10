@@ -13,16 +13,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".student_attendence_enterPin"></activity>
-        <activity android:name=".attendence_verification" />
-        <activity android:name=".student_scanQr" />
-        <activity android:name=".activity_subjectAttendence" />
-        <activity android:name=".activity_studentProfileDetail" />
-        <activity android:name=".activity_profile" />
-        <activity android:name=".user_attendence_firstActivity" />
-        <activity android:name=".activity_teacher_generateCode" />
-        <activity android:name=".StudentAttendence_RecycleView" />
-        <activity android:name=".teacher_activity_Attendence" />
+        <activity android:name=".student.student_attendence_enterPin"></activity>
+        <activity android:name=".activities.attendence_verification" />
+        <activity android:name=".student.student_scanQr" />
+        <activity android:name=".activities.activity_subjectAttendence" />
+        <activity android:name=".activities.activity_studentProfileDetail" />
+        <activity android:name=".activities.activity_profile" />
+        <activity android:name=".activities.user_attendence_firstActivity" />
+        <activity android:name=".activities.activity_teacher_generateCode" />
+        <activity android:name=".student.StudentAttendence_RecycleView" />
+        <activity android:name=".activities.teacher_activity_Attendence" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

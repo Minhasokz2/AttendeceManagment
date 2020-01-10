@@ -18,7 +18,7 @@
         android:layout_marginTop="30dp"
         android:id="@+id/recycleView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
     </androidx.recyclerview.widget.RecyclerView>
 
@@ -34,8 +34,8 @@
             android:onClick="userProfileIntent"
             android:layout_width="wrap_content"
             style="@style/loginButton"
-
             android:id="@+id/doneButtton"
+            android:layout_marginBottom="10dp"
             android:text="@string/done" />
     </LinearLayout>
 
