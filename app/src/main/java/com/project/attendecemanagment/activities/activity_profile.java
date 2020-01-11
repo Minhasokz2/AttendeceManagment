@@ -7,7 +7,6 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.project.attendecemanagment.R;
-import com.project.attendecemanagment.student.StudentSubjectList;
 
 public class activity_profile extends AppCompatActivity {
 
