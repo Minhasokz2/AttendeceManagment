@@ -26,6 +26,7 @@
             style="@style/parent"
             android:layout_marginTop="@dimen/signup_text_margin_top">
             <EditText
+                android:id="@+id/userName"
                 android:drawableLeft="@drawable/avatar"
                 style="@style/modifiedEditText"
                 android:gravity="center"
@@ -38,6 +39,7 @@
             style="@style/parent"
             android:layout_marginTop="@dimen/signup_text_margin_top">
             <EditText
+                android:id="@+id/passord"
                 android:drawableLeft="@drawable/key"
                 style="@style/modifiedEditText"
                 android:inputType="textPassword"

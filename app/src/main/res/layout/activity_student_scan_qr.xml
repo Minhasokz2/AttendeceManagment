@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="8"
-    tools:context=".student_scanQr">
+    tools:context=".student.student_scanQr">
 
     <LinearLayout
         android:layout_weight="4"

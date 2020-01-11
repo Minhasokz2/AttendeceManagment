@@ -20,6 +20,7 @@ public class student_scanQr extends AppCompatActivity {
     public void verifyAttendence(View view) {
         Intent intent = new Intent(this, attendence_verification.class);
 
+        startActivity(intent);
 
     }
 
