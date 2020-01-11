@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentLayout"
+    app:layout_goneMarginTop="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
 
@@ -16,6 +20,8 @@
     </TextView>
 
     <ImageView
+
+        android:id="@+id/firstIcon"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginRight="100dp"
@@ -25,7 +31,9 @@
         android:layout_marginEnd="100dp"
         android:layout_alignParentEnd="true" />
 
+
     <ImageView
+        android:id="@+id/secondIcon"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginRight="50dp"
