@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.project.attendecemanagment.R;
@@ -25,6 +26,16 @@ public class subjectDetail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.subject_detail);
         initBitmap();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+    }
+
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
     }
 
     public void monthlyDetail(View view) {

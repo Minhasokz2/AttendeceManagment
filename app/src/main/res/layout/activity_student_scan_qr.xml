@@ -8,6 +8,7 @@
     android:weightSum="8"
     tools:context=".student.student_scanQr">
 
+
     <LinearLayout
         android:layout_weight="4"
         android:gravity="center"
