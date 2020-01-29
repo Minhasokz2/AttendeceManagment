@@ -15,7 +15,7 @@
         ></TextView>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/recycleView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -24,18 +24,18 @@
 
     <LinearLayout
 
-        android:layout_alignParentBottom="true"
-        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
         <Button
 
 
-            android:onClick="userProfileIntent"
-            android:layout_width="wrap_content"
-            style="@style/loginButton"
             android:id="@+id/doneButtton"
-            android:layout_marginBottom="10dp"
+            style="@style/loginButton"
+            android:layout_width="wrap_content"
+            android:onClick="userProfileIntent"
             android:text="@string/done" />
     </LinearLayout>
 

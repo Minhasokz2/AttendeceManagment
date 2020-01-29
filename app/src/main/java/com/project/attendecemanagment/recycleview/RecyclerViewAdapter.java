@@ -29,10 +29,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private Context mContext;
 
     public RecyclerViewAdapter(Context context, ArrayList<String> StudentName, ArrayList<String> images,ArrayList<String> registration ) {
-        mStudentName = StudentName;
-        mRegistration = registration;
-        mImageView = images;
-        mContext = context;
+        this.mStudentName = StudentName;
+        this.mRegistration = registration;
+        this.mImageView = images;
+        this.mContext = context;
     }
 
     @Override
